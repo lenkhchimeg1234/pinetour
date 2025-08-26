@@ -1,0 +1,376 @@
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.bebas {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.section1 {
+  height: 773px;
+  background: url("./HeroImage.jpg") no-repeat center center fixed;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.navigation {
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  padding-top: 30px;
+  gap: 336px;
+  padding-left: 117.5px;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 24px;
+  background-color: white;
+}
+.buttons {
+  gap: 34px;
+  color: white;
+}
+.name {
+  flex-direction: column;
+
+  padding-top: 100px;
+  height: 394px;
+}
+.n1 {
+  font-size: 80px;
+  color: rgb(216, 223, 229);
+}
+.n2 {
+  font-size: 250px;
+  color: white;
+}
+.n3 {
+  font-size: 64px;
+  color: white;
+}
+.section2 {
+  width: 100%;
+  height: 500px;
+  background-image: url(/Location.png);
+  background-size: cover;
+}
+.location {
+  height: 370px;
+  gap: 80px;
+}
+.images {
+  width: 275.49px;
+  height: 370px;
+  border-radius: 5%;
+  background-image: url(/1.png);
+  background-size: cover;
+}
+.n4 {
+  font-size: 40px;
+  color: rgba(255, 255, 255, 0.774);
+  text-align: center;
+}
+.shadow {
+  border-radius: 40px;
+  box-shadow: -8px -8px 0 0 rgba(31, 114, 170, 0.46),
+    8px 8px 0 0 rgba(41, 114, 139, 0.25);
+}
+.images2 {
+  width: 275.49px;
+  height: 370px;
+  border-radius: 5%;
+  background-image: url(/2.png);
+  background-size: cover;
+}
+.images3 {
+  width: 275.49px;
+  height: 370px;
+  border-radius: 5%;
+  background-image: url(/3.png);
+  background-size: cover;
+}
+.images4 {
+  width: 275.49px;
+  height: 370px;
+  border-radius: 5%;
+  background-image: url(/4.png);
+  background-size: cover;
+}
+
+.section3 {
+  background-image: url(/test.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 130vh;
+  background-position: center;
+}
+
+.garchig {
+  height: 85px;
+  gap: 10px;
+  flex-direction: column;
+  padding-top: 60px;
+}
+.bairshil {
+  height: 640px;
+  justify-content: space-between;
+  padding-top: 200px;
+  padding-left: 150px;
+  gap: 20px;
+  display: flex;
+  position: relative;
+}
+.bairshil1 {
+  width: 513px;
+  display: flex;
+  flex-direction: column;
+  height: 640px;
+  gap: 20px;
+}
+.bair {
+  width: 512px;
+  height: 112px;
+  border-radius: 120px;
+  gap: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: rgba(250, 235, 215, 0.492);
+}
+
+.haygner {
+  font-size: 24px;
+}
+.haygner1 {
+  font-size: 15px;
+  gap: 12px;
+}
+.w100 {
+  width: 100%;
+}
+.pinContainer {
+  display: flex;
+  gap: 26px;
+}
+.pill {
+  justify-content: start;
+  display: flex;
+  gap: 4px;
+}
+
+.pin1 {
+  position: absolute;
+  top: 430px;
+  right: 1000px;
+}
+.pin2 {
+  position: absolute;
+  top: 459px;
+  right: 379px;
+}
+.pin3 {
+  position: absolute;
+  top: 255px;
+  right: 728px;
+}
+.pin4 {
+  position: absolute;
+  top: 723px;
+  right: 752px;
+}
+.pin5 {
+  position: absolute;
+  top: 120px;
+  right: 1020px;
+}
+.s3 {
+  position: absolute;
+}
+
+.section4 {
+  height: 1120px;
+  background-image: url(/Footer.png);
+  background-size: cover;
+}
+.framework {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.package {
+  width: 384px;
+  height: 527px;
+  border-radius: 40px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.absolute {
+  width: 245px;
+  height: 245px;
+  display: none;
+}
+.absolute1 {
+  top: 459px;
+  right: 379px;
+}
+.absolute2 {
+  top: 255px;
+  right: 728px;
+}
+.absolute3 {
+  top: 430px;
+  right: 1000px;
+}
+.absolute4 {
+  top: 723px;
+  right: 752px;
+}
+.absolute5 {
+  top: 15px;
+  right: 930px;
+}
+
+.pill1:hover ~ .absolute1 {
+  display: block;
+}
+.pill2:hover ~ .absolute2 {
+  display: block;
+}
+.pill3:hover ~ .absolute3 {
+  display: block;
+}
+.pill4:hover ~ .absolute4 {
+  display: block;
+}
+.pill5:hover ~ .absolute5 {
+  display: block;
+}
+.pactitle {
+  width: 336px;
+  height: 36px;
+  align-items: center;
+  display: flex;
+  justify-content: left;
+  padding-top: 32px;
+  padding-left: 24px;
+  gap: 20px;
+}
+.heart {
+  width: 36px;
+  height: 36px;
+}
+.pac1 {
+  width: 336px;
+  height: 375px;
+  padding-left: 24px;
+}
+.gap3 {
+  gap: 20px;
+}
+.gap4 {
+  color: var(--Text-TextPrimary, #121316);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  padding-left: 40px;
+  margin: 0%;
+}
+.essentials {
+  color: #919191;
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 13px;
+}
+
+.word {
+  color: rgb(42, 41, 41);
+  font-size: 16px;
+  font-weight: 400;
+}
+.check {
+  width: 20px;
+  height: 20px;
+}
+.style {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: start;
+  gap: 20px;
+}
+.select {
+  width: 336px;
+  height: 48px;
+  border-radius: 9999px;
+  background-color: #a4d1e2;
+  font-size: 16px;
+}
+.popular {
+  width: 97px;
+  height: 26px;
+  border-radius: 99px;
+  background-color: #6972b5;
+  font-size: 16px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0%;
+  margin-bottom: 5%;
+}
+.face {
+  width: 167px;
+  height: 44px;
+  border-radius: 99px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #6972b5;
+  background-color: white;
+  font-weight: 700;
+  gap: 10px;
+}
+.faceimage {
+  width: 24px;
+  height: 24px;
+}
+.last {
+  width: 100%;
+  height: 165px;
+  display: flex;
+  gap: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.insta {
+  display: flex;
+  gap: 50px;
+}
+.pop {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+a {
+  text-decoration: none !important;
+  color: #6972b5;
+}
