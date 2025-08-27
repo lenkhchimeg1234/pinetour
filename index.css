@@ -93,7 +93,7 @@
 }
 .n4 {
   font-size: 40px;
-  color: rgba(255, 255, 255, 0.774);
+  color: rgba(255, 255, 255, 0.851);
   text-align: center;
 }
 .shadow {
@@ -145,11 +145,11 @@
   padding-top: 60px;
 }
 .bairshil {
-  height: 640px;
+  height: 840px;
   justify-content: space-between;
   padding-top: 200px;
   padding-left: 150px;
-  gap: 20px;
+  gap: 30px;
   display: flex;
   position: relative;
 }
@@ -247,23 +247,23 @@
   height: 245px;
 }
 .absolute1 {
-  top: 459px;
-  right: 379px;
+  top: 345px;
+  right: 285px;
   display: none;
 }
 .absolute2 {
-  top: 255px;
-  right: 728px;
+  top: 155px;
+  right: 634px;
   display: none;
 }
 .absolute3 {
-  top: 430px;
-  right: 1000px;
+  top: 350px;
+  right: 870px;
   display: none;
 }
 .absolute4 {
-  top: 723px;
-  right: 752px;
+  top: 683px;
+  right: 622px;
   display: none;
 }
 .absolute5 {
